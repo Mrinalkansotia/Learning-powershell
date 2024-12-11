@@ -1,0 +1,1 @@
+﻿Set-ItemProperty -Path "HKCU:\Control Panel\International" -Name sTimeFormat -Value "h:mm tt"

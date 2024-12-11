@@ -1,0 +1,1 @@
+﻿Get-WmiObject Win32_process -filter 'name = "winword.exe"' | foreach-object { $_.SetPriority(32768) }

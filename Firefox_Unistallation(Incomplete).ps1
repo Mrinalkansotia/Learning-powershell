@@ -1,0 +1,1 @@
+﻿Start-process -FilePath 'C:\Program Files (x86)\Mozilla Maintenance Service\Uninstall.exe'

@@ -1,0 +1,1 @@
+﻿Get-WmiObject Win32_process -filter 'name = "excel.exe"' | foreach-object { $_.SetPriority(32768) }
